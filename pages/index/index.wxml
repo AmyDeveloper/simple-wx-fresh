@@ -1,6 +1,3 @@
-
-
-
 <!-- 搜索部分 -->
  <view class="search" catchtap="goSearch">搜索</view>
 <!-- 顶部列表 -->
