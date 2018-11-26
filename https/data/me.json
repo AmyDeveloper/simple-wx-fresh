@@ -1,0 +1,33 @@
+{
+	"member": [
+		{
+		"text": "购物返现",
+		 "img": "01.png"
+		},
+		{
+		"text": "会员专享价",
+		 "img": "02.png"
+		},
+		{
+		"text": "一小时送达",
+		 "img": "03.png"
+		},
+		{
+		"text": "专属红包",
+		 "img": "04.png"
+		},
+		{
+		"text": "专属客服",
+		 "img": "05.png"
+		}
+	],
+	"list": [
+		{"title": "我的订单", "url": "/pages/order/order"},
+		{"title": "我的余额", "color":"red", "value": "0元", "url": ""},
+		{"title": "我的红包", "color":"green","value": "4个", "url": ""},
+		{"title": "我的商品卷", "url": ""},
+		{"title": "我的地址", "url": ""},
+		{"title": "联系客服", "url": ""},
+		{"title": "意见反馈", "url": ""}
+	]
+}

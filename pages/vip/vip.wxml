@@ -1,0 +1,64 @@
+<view class="header">
+    <view class="content">
+        <view class="userimg">
+            <open-data class="user-img" type="userAvatarUrl"></open-data>
+        </view>
+        <view class="username">
+            <open-data type='userNickName'></open-data>
+        </view>
+        <view class="open-vip">
+            <button>立即开通</button>
+        </view>
+    </view>
+    <view class="arrow"></view>
+    <view class="free">
+        <text class="free-exp">免费体验></text>
+    </view>
+    <view class="discount">预计一年为您节省
+        <text>1121.30</text>元</view>
+</view>
+<view class="little-tag">
+    <view class="icons">
+        <view class="item" wx:for='{{list}}' wx:key="this" data-id="a{{item.id}}">
+            <image src="{{item.descSelectIcon}}" bindtouchstart='tonewPage'></image>
+            <view>{{item.primaryName}}</view>
+
+        </view>
+    </view>
+    <view class="redbags">
+        <block wx:for="{{redbag}}" wx:key="this">
+            <image id="b{{item.id}}"src="{{item.src}}" bindtouchstart='totips'></image>
+        </block>
+    </view>
+</view>
+<view class="vip-title">
+    <view class="up-title">会员商品&会员专享价</view>
+    <view class="down-title">以下商品已抢光</view>
+</view>
+<view class="vip-product">
+    <view class="products">
+        <block wx:for="{{products}}" wx:key="this">
+            <view class="pro-item">
+                <view class="img-info">
+                    <image src="{{item.img}}" bindtouchstart='toDetailpage'></image>
+                </view>
+                <view class="pro-info">
+                    <view class="item-txt">{{item.text}}</view>
+                    <view class="item-subtxt">{{item.subtext}}</view>
+                    <view class="item-info">
+                        <view class="price">
+                            <text class="origin-pri">￥{{item.originPrice}}</text>
+                            <text class="vip-pri">￥{{item.vipPrice}}</text>
+                        </view>
+                        <text class="item-ari" bindtap='showword'>{{item.arrive}}</text>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>
+<view class="nomore">没有更多商品啦~</view>
+<view class="footer">
+    <text>开通优享会员预计一年为您节省1121元</text>
+    <button>立即开通</button>
+</view>

@@ -1,0 +1,256 @@
+{
+	"country": "南非",
+	"group_info": {
+		"event_end_time": "",
+		"deliver_end_time": "",
+		"group_number_dec": "",
+		"owner_discount_price": 0,
+		"count_down": 0,
+		"group_initiator_benifit": "",
+		"event_start_time": "",
+		"new_user_only": 0,
+		"group_rule_img": "",
+		"group_h5_url": "",
+		"deliver_start_time": ""
+	},
+	"integral_price": 0,
+	"free_shipping": 0,
+	"delivery_style": "2小时达",
+	"product_need_level": 0,
+	"non_vip_price_pro": {
+		"price_up": {
+			"show_type": 2,
+			"color": 9868950,
+			"price": 2990,
+			"name": ""
+		},
+		"price_down": {
+			"show_type": 1,
+			"color": 16730257,
+			"price": 890,
+			"name": ""
+		}
+	},
+	"price": 2990,
+	"buyerDescription": "专注国内外水果8年，用专业的知识、挑剔的味蕾、一丝不苟的心严选新鲜水果。",
+	"buyerUrl": "https://image.missfresh.cn/732528a26e0547d1934cc7ca67b57c99.png",
+	"exchange_times_per_day": 0,
+	"promote_tag_new": "",
+	"id": 2674,
+	"sku": "p-HBnfxy-2g",
+	"stock": 2,
+	"brand": "",
+	"integral_product_type": 0,
+	"sales_volume": "193171",
+	"securityTitle": "安心指纹",
+	"image": "https://fms-image.missfresh.cn/5b9f3ba2c8524f54a3c47e70150fcfbc.jpg",
+	"securityText": "水果",
+	"images": [
+		"https://fms-image.missfresh.cn/b3ca069ef1974b5e987747d59037908f.jpg",
+		"https://fms-image.missfresh.cn/91cfef2fb5cd497fa9534e401f4bee33.jpg",
+		"https://fms-image.missfresh.cn/46fa527fa73a47db8c43f90aa3cc178f.jpg",
+		"https://fms-image.missfresh.cn/7fc6b2e0fbec43b0926c98c7854550a1.jpg",
+		"https://fms-image.missfresh.cn/e7238d6dbe904991a1377ac2f71cadf9.jpg",
+		"https://fms-image.missfresh.cn/74172fd75d7844a8a8c700b1ffcf685b.jpg"
+	],
+	"is_vip": 1,
+	"weight": "230-300g*2个",
+	"seckill_limit": 0,
+	"pack": "普装",
+	"unit": "2个",
+	"vip_card": {
+		"is_opened": 0,
+		"back_cash_text": "支付8元开会员\n购买本商品更返#_$0.44#_$元",
+		"icon_img": "https://j-image.missfresh.cn/img_20170823161352436.png"
+	},
+	"subtitle": "甜味情话“I want two 西柚”",
+	"name": "南非西柚220-300g*2个",
+	"market_price": 3490,
+	"nationwide": 0,
+	"vip_price": 890,
+	"delivery_mode": 1,
+	"storage_code": "MRYXSH,MRYXSZ",
+	"description": [
+		"含糖量低且富含天然维生素C"
+	],
+	"promote_tag": "https://j-image.missfresh.cn/img_20180601103013492.png",
+	"product_created_at": "2016-05-19 15:14:30",
+	"is_exchange_product": 0,
+	"is_present": 0,
+	"exchange_times_per_period": 0,
+	"product_chrome": 1,
+	"can_use_voucher": 1,
+	"storage_method": "冷藏",
+	"quantity": 2,
+	"productFingerprints": [
+		{
+			"stationRegion": "MRYXBJN",
+			"picUrl": "http://missfresh-asvip-develop-common.ufile.ucloud.cn/wms_1533179259322667942.png",
+			"securityTagName": "优鲜安心检测",
+			"securityUnselectedTagUrl": "https://j-image.missfresh.cn/img_20180313023911409.png",
+			"width": 1001,
+			"securityDetailUrl": "https://as-vip.missfresh.cn/ug/safe-detection.html?id=10000&sku=p-HBnfxy-2g",
+			"id": 10000,
+			"missfreshAnalytica": true,
+			"height": 3932,
+			"securityTagUrl": "https://j-image.missfresh.cn/img_20180313023856777.png"
+		}
+	],
+	"cart_btn_name": "加入购物车",
+	"share_info": {
+		"wx_share_type": 0,
+		"image_url": "https://fms-image.missfresh.cn/af1a2718e92e4e47a40eac4aaf97c19d.jpg",
+		"sina_url": "https://s.missfresh.cn/s/2674/61887776_0e80232",
+		"wx_url": "https://as-vip.missfresh.cn/s/pd?a=p-HBnfxy-2g&b=61887776_0e80&t=232&v=&u=61887776",
+		"friend_share_type": 1,
+		"qqFriendShareType": 0,
+		"title": "分享给你[南非西柚220-300g*2个]>",
+		"content": "这家店超级棒，1000款严选生鲜，最快30分钟送达~",
+		"friend_url": "https://as-vip.missfresh.cn/s/pd?a=p-HBnfxy-2g&b=61887776_0e80&t=232&v=&u=61887776",
+		"qqFriendUrl": "https://s.missfresh.cn/s/2674/61887776_0e80232"
+	},
+	"presale_type": 0,
+	"buy_permission": 0,
+	"buyerName": "罗大",
+	"qa_info": [
+		{
+			"stationRegion": "MRYXBJN",
+			"picUrl": "http://missfresh-asvip-develop-common.ufile.ucloud.cn/wms_1533179259322667942.png",
+			"securityTagName": "优鲜安心检测",
+			"securityUnselectedTagUrl": "https://j-image.missfresh.cn/img_20180313023911409.png",
+			"width": 1001,
+			"securityDetailUrl": "https://as-vip.missfresh.cn/ug/safe-detection.html?id=10000&sku=p-HBnfxy-2g",
+			"id": 10000,
+			"missfreshAnalytica": true,
+			"height": 3932,
+			"securityTagUrl": "https://j-image.missfresh.cn/img_20180313023856777.png"
+		}
+	],
+	"storage_time": "到货即可食用",
+	"member_level": 1,
+	"material": "",
+	"vip_price_pro": {
+		"price_up": {
+			"show_type": 2,
+			"color": 9868950,
+			"price": 2990,
+			"name": ""
+		},
+		"price_down": {
+			"show_type": 1,
+			"color": 16730257,
+			"price": 890,
+			"name": ""
+		}
+	},
+	"instruction": [
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/7bc20a8f932c40ff96fd36981046a85d.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/26eeef5fd90b424fb4f41f58b7fbc921.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/7fe39782709d4e6fa4db8b981e4a590b.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/c678c95fc5b048348aac8e410a349ff9.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/67d8eeeafa02404ba9a9d7b7adbc6355.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/80091fd8f2374218846671700c045127.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/af8596856b8f4a69842ccafbd01a89b3.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/180b7658193e4d54853a87554f42f5ed.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		},
+		{
+			"blur_image": "",
+			"image": "https://image.missfresh.cn/c0aa45cc1a444e8980ea1ea81777833a.jpg",
+			"ordering": 0,
+			"description": "",
+			"video": "",
+			"title": ""
+		}
+	],
+	"cart_image": "https://fms-image.missfresh.cn/af1a2718e92e4e47a40eac4aaf97c19d.jpg",
+	"delivery_mode_name": "2小时达",
+	"product_share_info_v2": {
+		"product_share_need_price": 1,
+		"share_product_text": "已经有172904人分享了该商品",
+		"product_bright_spot": "亮点",
+		"qr_size": 75,
+		"product_rule_is_show": 1,
+		"show_share_img": "https://j-image.missfresh.cn/img_20170327161934693.jpg",
+		"preview_show": 0,
+		"share_bt_bg_img": "https://j-image.missfresh.cn/img_20180419112810200.png",
+		"product_share_backup_up": "https://j-image.missfresh.cn/img_20180712213821077.png",
+		"share_bg_title": "甜味情话“I want two 西柚”",
+		"benefit_status": 0,
+		"share_s_p_img": [
+			"https://j-image.missfresh.cn/img_20171029215450695.png"
+		],
+		"prodcut_share_bg_login_text": "登陆方可享受奖励,立即登陆",
+		"share_product_img": "https://j-image.missfresh.cn/img_20171029215450695.png",
+		"preview_need_qrcode": 1,
+		"benefit_get_txt": "已获得",
+		"share_s_p_txt": "点击分享",
+		"prodcut_share_bg_img": "https://j-image.missfresh.cn/img_20170327161934693.jpg",
+		"prodcut_share_bg_text": "推荐商品给新用户，好友立得30元红包。",
+		"qr_y": 472,
+		"qr_x": 149,
+		"product_detail_is_show": 1,
+		"product_integarl_explain": "分享商品，邀请新用户通过链接下单，可得59减30元红包。",
+		"product_integarl_icon": "https://j-image.missfresh.cn/img_20170215184830712.png",
+		"product_integarl_text": "点我，分享好商品给好朋友>>>"
+	},
+	"enable_mrd": 1,
+	"exchange_limit_day": 0,
+	"promotion": [
+		"实付满49包邮"
+	]
+}

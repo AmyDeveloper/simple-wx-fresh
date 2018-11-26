@@ -1,0 +1,103 @@
+.user {
+    position: relative;
+    padding: 20px 15px;
+    height: 60px;
+    background-color: #FAFAFA;
+}
+arrdow {
+    display: inline-block;
+    margin-left: 5px;
+}
+.pic {
+    display: block;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+}
+.userinfo {
+    position: absolute;
+    top: 28px;
+    left: 85px;
+}
+.username {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.ber {
+    font-size: 10px;
+    background-color: #CACAC8;
+    border-radius: 15px;
+    height: 15px;
+    width: 40px;
+    padding: 0px 5px;
+    border: 1px solid transparent;
+}
+.username {
+    display: inline-block;
+
+}
+
+
+.member {
+    padding: 20px 10px 0px 10px;
+    font-size: 12px;
+    position: relative;
+}
+.member .m-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.member .m-go {
+    position: absolute;
+    top:20px;
+    right: 15px;
+    color: #666;
+}
+.member .m-text {
+    padding: 2px 0px;
+}
+.member .m-text text {
+    color: #D45A89;
+}
+
+.i {
+    flex: 1;
+    text-align: center;
+}
+.icon {
+    display: flex;
+    border-bottom: 1px solid #999;
+    padding: 20px 0 30px 0px;
+}
+.icon image {
+    width: 30px;
+    height: 30px;
+}
+.icon .text {
+    font-size: 12px;
+}
+
+
+
+
+.ul {
+    padding: 0px 10px;
+}
+.ul .li {
+    border-bottom: 1px solid #999;
+    padding: 15px 0px;
+}
+.gt {
+    float: right;
+    margin-right: 5px;
+}
+.value {
+    float: right;
+    margin-right: 10px;
+}
+.list-arrdow {
+    float: right;
+    margin-top: 7px;
+}

@@ -1,0 +1,139 @@
+page {
+	padding: 0;
+	margin: 0;
+}
+image {
+	display: block;
+}
+swiper {
+	height: 400rpx;
+}
+.img {
+	height: 400rpx;
+	width: 100%;
+}
+view {
+	color: #4b494a;
+	padding: 0 5px;
+}
+.subtitle {
+	font-size: 15px;
+}
+.price_info {
+	position: relative;
+}
+.price {
+	font-size: 16px;
+	color: #e13d7e;
+}
+.vip_price {
+	color: #b3b3b3;
+	padding-left: 5px;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.sales_volume {
+	position: absolute;
+	right: 5px;
+	color: #b3b3b3;
+	font-size: 11px;
+}
+.produce_info  text{
+	font-size: 12px;
+	padding-right: 20px;
+}
+.vip_card {
+	margin: 40px 10px;
+	height: 60px;
+	background-color: #ffe9b9;
+	border-radius: 10px;
+	position: relative;
+}
+.vip_card image {
+	width: 40px;
+	height: 18px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	right: 10px;
+}
+.back_cash_text {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+.vip_card .back_cash_text view {
+	color: #8c6c3f;
+	font-size: 14px;
+}
+.vip_card .back_cash_text text {
+	color: #d44a72;
+}
+.go-open {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	font-size: 12px;
+}
+.securityTitle {
+	margin-top: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.securityText {
+	font-size: 11px;
+	color: #ccc;
+}
+.detection image {
+	padding-left: 25px;
+	padding-top: 8px;
+	height: 27px;
+	width: 27px;
+}
+.securityTagName {
+	font-size: 11px;
+	margin-top: 10px;
+}
+.details {
+	margin-top: 12px;
+}
+.details image {
+	width: 97%;
+	padding:0 5px;
+}
+.details view{
+	font-size: 12px;
+	height: 36px;
+	color: #8d8d8d;
+	line-height: 36px;
+	border-top: 1px solid #eee;
+}
+.details view:first-child {
+	border: none;
+}
+.details_title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.shopping {
+	width: 100%;
+	display: flex;
+	position: fixed;
+	bottom: 0px;
+	right: 0;
+}
+.car {
+	width: 100rpx;
+	height: 100rpx;
+}
+.shopping-car {
+	flex: 1;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background-color: #fb4d92;
+	margin-right: 6px;
+}

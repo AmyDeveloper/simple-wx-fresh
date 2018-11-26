@@ -1,0 +1,48 @@
+
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/logs/logs",
+    "pages/vip/vip",
+    "pages/me/me",
+    "pages/detail/detail",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "每日优鲜",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-select.png"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "text": "会员+",
+        "iconPath": "images/vip.png",
+        "selectedIconPath": "images/vip.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "购物车",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "images/car-select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/member.png",
+        "selectedIconPath": "images/member-select.png"
+      }
+    ]
+  }
+}

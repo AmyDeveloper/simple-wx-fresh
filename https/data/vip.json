@@ -1,0 +1,268 @@
+{
+    "data": [
+                {
+                "id": "01",
+                "text": "icons",
+                "data": [
+                    {
+                    "path": "https://j-image.missfresh.cn/img_20171028202643589.png",
+                    "suspensionIcon": "https://j-image.missfresh.cn/img_20180525194726746.png",
+                    "name": "购物返现",
+                    "link": "https://p-h5.missfresh.cn/h5_file/7E17A0FAF44627E5FA24384E6255A32A/index.html",
+                    "primaryName": "购物返现5%",
+                    "id": "001",
+                    "type": "webpromotion",
+                    "descImage": "https://j-image.missfresh.cn/img_20180730181421212.png",
+                    "descSelectIcon": "https://j-image.missfresh.cn/img_20180103105120937.png",
+                    "descUnselectIcon": "https://j-image.missfresh.cn/img_20180103104714720.png"
+                },
+                {
+                    "path": "https://j-image.missfresh.cn/img_20171103161358679.png",
+                    "suspensionIcon": "https://j-image.missfresh.cn/img_20180525194801787.png",
+                    "name": "会员专享价",
+                    "link": "https://p-h5.missfresh.cn/jiage.html",
+                    "primaryName": "会员专享价",
+                    "id": "002",
+                    "type": "webpromotion",
+                    "descImage": "https://j-image.missfresh.cn/img_20180105115059526.png",
+                    "descSelectIcon": "https://j-image.missfresh.cn/img_20180103105209021.png",
+                    "descUnselectIcon": "https://j-image.missfresh.cn/img_20180103104816030.png"
+                },
+                {
+                    "path": "https://j-image.missfresh.cn/img_20171028202735028.png",
+                    "suspensionIcon": "https://j-image.missfresh.cn/img_20180525194702446.png",
+                    "name": "1小时送达",
+                    "link": "https://p-h5.missfresh.cn/h5_file/FEC127488DF4C1A77993F9360CAB58D6/index.html",
+                    "primaryName": "1小时送达",
+                    "id": "003",
+                    "type": "webpromotion",
+                    "descImage": "https://j-image.missfresh.cn/img_20180507171155875.png",
+                    "descSelectIcon": "https://j-image.missfresh.cn/img_20180103105332760.png",
+                    "descUnselectIcon": "https://j-image.missfresh.cn/img_20180103104954137.png"
+                },
+                {
+                    "path": "https://j-image.missfresh.cn/img_20180105021625371.png",
+                    "suspensionIcon": "https://j-image.missfresh.cn/img_20180525194740371.png",
+                    "name": "专属红包",
+                    "link": "https://p-h5.missfresh.cn/zhuanshu2.html",
+                    "primaryName": "专属红包",
+                    "id": "004",
+                    "type": "webpromotion",
+                    "descImage": "https://j-image.missfresh.cn/img_20180105115047338.png",
+                    "descSelectIcon": "https://j-image.missfresh.cn/img_20180103105252067.png",
+                    "descUnselectIcon": "https://j-image.missfresh.cn/img_20180103104844843.png"
+                },
+                {
+                    "path": "https://j-image.missfresh.cn/img_20171028202909231.png",
+                    "suspensionIcon": "https://j-image.missfresh.cn/img_20180525194814835.png",
+                    "name": "专属客服",
+                    "link": "https://p-h5.missfresh.cn/h5_file/5580543DEFBB976D8C57A77746B18830/index.html",
+                    "primaryName": "专属客服",
+                    "id": "005",
+                    "type": "webpromotion",
+                    "descImage": "https://j-image.missfresh.cn/img_20180613224959655.png",
+                    "descSelectIcon": "https://j-image.missfresh.cn/img_20180105003646238.png",
+                    "descUnselectIcon": "https://j-image.missfresh.cn/img_20180105003625791.png"
+                }
+            ]
+        },
+        {
+            "id": "02",
+            "text": "redbag",
+            "data": [
+                    {
+                        "id": "001",
+                        "src":"https://j-image.missfresh.cn/img_20180524102748528.png"},
+                    {
+                       "id": "002",
+                       "src": "https://j-image.missfresh.cn/img_20180524102734666.png"}
+                    ]
+        },
+        {
+            "id": "03",
+            "text": "products",
+            "data": [
+                {
+                    "id": "001",
+                    "text": "跟鲜花一起运过来的香蕉",
+                    "subtext": "进口香蕉1斤*1袋",
+                    "originPrice": "9.9",
+                    "vipPrice": "7.9",
+                    "img": "https://fms-image.missfresh.cn/85525e3c6be14442857d7042afc270a8.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "002",
+                    "text": "进口牛油果125g起*2个",
+                    "subtext": "口感像乳酪 营养不简单",
+                    "originPrice": "19.9",
+                    "vipPrice": "9.9",
+                    "img": "https://fms-image.missfresh.cn/af478da21872435d88841627c43c6dae.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "003",
+                    "text": "西周蜜瓜25号2.5-3.5斤*1个",
+                    "subtext": "打小就是自然甜",
+                    "originPrice": "19.9",
+                    "vipPrice": "15.9",
+                    "img": "https://fms-image.missfresh.cn/92cb82420fe045e298d03023f686bee0.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "004",
+                    "text": "冠益乳酸奶组合装250g*3",
+                    "subtext": "有了BB冠军 还用什么BB霜",
+                    "originPrice": "20.9",
+                    "vipPrice": "13.9",
+                    "img": "https://image.missfresh.cn/0b007f15eb8f48ba90a53129643f7dae.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "005",
+                    "text": "华都鸡翅根500g",
+                    "subtext": "生活安逸的鸡 肉自然嫩",
+                    "originPrice": "16.8",
+                    "vipPrice": "9.9",
+                    "img": "http://missfresh-fms.ufile.ucloud.cn/07643b3740224712807d4dc2ce80af15.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "006",
+                    "text": "国联 翡翠生虾仁100g",
+                    "subtext": "鲜美Q弹是我的代名词",
+                    "originPrice": "11.9",
+                    "vipPrice": "9.9",
+                    "img": "https://image.missfresh.cn/df9f85ba49924c52802ed5312ee8e8ed.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "007",
+                    "text": "在家吃饭 百年扒鸡520g",
+                    "subtext": "每次闻到扒鸡味 馋到流口水",
+                    "originPrice": "25.8",
+                    "vipPrice": "19.9",
+                    "img": "https://image.missfresh.cn/product_images/8366afb38350fb570c1b4c02d4856538.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "008",
+                    "text": "新疆无籽露葡萄500g*1盒",
+                    "subtext": "吃葡萄不吐葡萄籽的“新疆甜”",
+                    "originPrice": "15.9",
+                    "vipPrice": "9.9",
+                    "img": "https://image.missfresh.cn/ea39a4c8d0a148358d388738846f6f7e.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "009",
+                    "text": "跟鲜花一起运过来的香蕉",
+                    "subtext": "进口香蕉1斤*1袋",
+                    "originPrice": "9.9",
+                    "vipPrice": "7.9",
+                    "img": "https://fms-image.missfresh.cn/85525e3c6be14442857d7042afc270a8.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "010",
+                    "text": "进口牛油果125g起*2个",
+                    "subtext": "口感像乳酪 营养不简单",
+                    "originPrice": "19.9",
+                    "vipPrice": "9.9",
+                    "img": "https://fms-image.missfresh.cn/af478da21872435d88841627c43c6dae.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "011",
+                    "text": "西周蜜瓜25号2.5-3.5斤*1个",
+                    "subtext": "打小就是自然甜",
+                    "originPrice": "19.9",
+                    "vipPrice": "15.9",
+                    "img": "https://fms-image.missfresh.cn/92cb82420fe045e298d03023f686bee0.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "012",
+                    "text": "冠益乳酸奶组合装250g*3",
+                    "subtext": "有了BB冠军 还用什么BB霜",
+                    "originPrice": "20.9",
+                    "vipPrice": "13.9",
+                    "img": "https://image.missfresh.cn/0b007f15eb8f48ba90a53129643f7dae.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "013",
+                    "text": "华都鸡翅根500g",
+                    "subtext": "生活安逸的鸡 肉自然嫩",
+                    "originPrice": "16.8",
+                    "vipPrice": "9.9",
+                    "img": "http://missfresh-fms.ufile.ucloud.cn/07643b3740224712807d4dc2ce80af15.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "014",
+                    "text": "国联 翡翠生虾仁100g",
+                    "subtext": "鲜美Q弹是我的代名词",
+                    "originPrice": "11.9",
+                    "vipPrice": "9.9",
+                    "img": "https://image.missfresh.cn/df9f85ba49924c52802ed5312ee8e8ed.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "015",
+                    "text": "在家吃饭 百年扒鸡520g",
+                    "subtext": "每次闻到扒鸡味 馋到流口水",
+                    "originPrice": "25.8",
+                    "vipPrice": "19.9",
+                    "img": "https://image.missfresh.cn/product_images/8366afb38350fb570c1b4c02d4856538.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "016",
+                    "text": "新疆无籽露葡萄500g*1盒",
+                    "subtext": "吃葡萄不吐葡萄籽的“新疆甜”",
+                    "originPrice": "15.9",
+                    "vipPrice": "9.9",
+                    "img": "https://image.missfresh.cn/ea39a4c8d0a148358d388738846f6f7e.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "017",
+                    "text": "西周蜜瓜25号2.5-3.5斤*1个",
+                    "subtext": "打小就是自然甜",
+                    "originPrice": "19.9",
+                    "vipPrice": "15.9",
+                    "img": "https://fms-image.missfresh.cn/92cb82420fe045e298d03023f686bee0.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "018",
+                    "text": "国联 翡翠生虾仁100g",
+                    "subtext": "鲜美Q弹是我的代名词",
+                    "originPrice": "11.9",
+                    "vipPrice": "9.9",
+                    "img": "https://image.missfresh.cn/df9f85ba49924c52802ed5312ee8e8ed.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "019",
+                    "text": "进口牛油果125g起*2个",
+                    "subtext": "口感像乳酪 营养不简单",
+                    "originPrice": "19.9",
+                    "vipPrice": "9.9",
+                    "img": "https://fms-image.missfresh.cn/af478da21872435d88841627c43c6dae.jpg",
+                    "arrive": "到货提醒"
+                },
+                {
+                    "id": "020",
+                    "text": "跟鲜花一起运过来的香蕉",
+                    "subtext": "进口香蕉1斤*1袋",
+                    "originPrice": "9.9",
+                    "vipPrice": "7.9",
+                    "img": "https://fms-image.missfresh.cn/85525e3c6be14442857d7042afc270a8.jpg",
+                    "arrive": "到货提醒"
+                }
+            ]
+        }
+    ]
+}

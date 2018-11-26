@@ -1,0 +1,37 @@
+<view>
+    <view class='user'>
+        <open-data class="pic"type="userAvatarUrl" ></open-data>
+        <view class='userinfo'>
+            <open-data type="userNickName" class="username"></open-data>
+            <view class='ber'>普通会员</view>
+        </view>
+    </view>
+
+
+<!-- 会员专享 -->
+    <view class='member'>
+        <view class='m-title'>会员权益</view>
+        <view class='m-go'>开通会员<arrdow></arrdow></view>
+        <view class='m-text'>成为优享会员,预计1年将为你 <text>节省{{num}}元</text></view>
+        <view class='icon'>
+           <view wx:for="{{member}}" wx:key="this" class='i'>
+                <image src='https://localhost:3001/images/me-icon/{{item.img}}'></image>
+                <view class='text'>{{item.text}}</view>
+           </view>
+        </view>
+    </view>
+
+
+    <!-- 我的 -->
+    <view class='ul'>
+        <navigator open-type='navigate' url='{{item.url}}' wx:for="{{list}}" wx:key="this" class='li'>
+            <view class='content'>
+                <text class='title'>{{item.title}}</text>
+                <arrdow class="list-arrdow"></arrdow>
+            <block wx:if="{{item.color}}">
+                <text class='value'style="color: {{item.color}}">{{item.value}}</text>
+            </block>
+            </view>
+        </navigator>
+    </view>
+</view>

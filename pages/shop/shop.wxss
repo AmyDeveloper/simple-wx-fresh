@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+.list {
+	padding: 10px 0 0;
+}
+.header {
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.header image {
+	width: 60px;
+	height: 60px;
+}
+.item-list image {
+	width: 100px;
+	height: 100px;
+}
+.item-list .title {
+	font-size: 14px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.text {
+	font-size: 12px;
+	color: #ccc;
+	margin-top: 10px;
+}
+.content {
+	overflow: hidden;
+	padding: 10px 0 10px 10px;
+}
+.content .item {
+	float: left;
+	width: 340rpx;
+	margin-right: 8px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	
+}
+
+.content .item .item-img {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+}
+
+.content .item .gowucar {
+	position: relative;
+}
+.content .item .gowucar image {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 3px;
+	top: -30px;
+}
+.content .item .item-title {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.content .item .item-price {
+	color: #F625A8;
+}
+.nomore {
+	font-size: 12px;
+	text-align: center;
+	color: #ccc;
+}
+.nomore text {
+	margin-top: 5px;
+}

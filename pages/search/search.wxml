@@ -1,0 +1,25 @@
+<view class='large'>
+    <view class='search'>
+    <input placeholder='请输入商品名称' data-value='{{search}}' value='{{search}}'></input><text bindtap='goSearch'>搜索</text>
+    </view>
+    <view class='hot'>
+        <text class='module-title'>热门搜索</text>
+        <text wx:for="{{data}}" wx:key="this" class='module-msg' bindtap='hotSearch' data-id='{{item}}'>{{item}}</text>
+    </view>
+    <view class='hot re' hidden="'{{dis}}'">
+        <text class='module-title fl'>历史记录</text><view class='fr' bindtap='clear'>清除历史记录</view>
+        <text wx:for="{{history}}" wx:key="this" class='module-msg' bindtap='hotSearch' data-id='{{item}}'>{{item}}</text>
+    </view>
+    <view class='module-title like'>推荐商品</view>
+    <view class='product' wx:for="{{products}}" wx:key="this">
+        <image class='product-img' src='{{item.image}}'></image>
+        <image class='product-zhe' src='{{item.promote_tag}}'></image>
+        <view class='product-msg'>
+            <view class='msg-title'>{{item.name}}</view>
+            <view class='msg-intro'>{{item.subtitle}}</view>
+                <text class='price'></text>
+                <image src='{{item.cart_image}}' class='icon' bindtap='addCar'></image>
+        </view>
+    </view>
+</view>
+

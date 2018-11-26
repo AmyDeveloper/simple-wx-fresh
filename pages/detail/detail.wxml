@@ -1,0 +1,51 @@
+<swiper indicator-dots indicator-color='#eee' indicator-active-color='#000' interval='1500' autoplay circular>
+    <swiper-item wx:for='{{images}}' wx:key='this'>
+        <block wx:if='{{index === 1}}'>
+            <image src='{{item}}' mode='scaleToFill' class='img'></image>
+        </block>
+        <image src='{{item}}' mode='aspectFit' class='img'></image>
+    </swiper-item>
+</swiper>
+<view class='header'>
+    <view class='name'>{{name}}</view>
+    <view class='subtitle'>{{subtitle}}</view>
+    <view class='price_info'>
+        <text class='price'>￥{{price}}</text>
+        <text class='vip_price'>￥{{vip_price}}</text>
+        <text class='sales_volume'>已售 {{sales_volume}}份</text>
+    </view>
+    <view class='produce_info'>
+        <text>·{{country}}</text>
+        <text>·{{delivery_style}}</text>
+        <text wx:for='{{promotion}}' wx:key='this'>·{{promotion}}</text>
+    </view>
+</view>
+<view class='vip_card'>
+    <image src="https://j-image.missfresh.cn/img_20170823161352436.png"></image>
+    <view class='back_cash_text'>
+        <view>支付8元开会员</view>
+        <view>购买本商品更返
+            <text>0.44</text>元</view>
+    </view>
+    <view class='go-open'>去开通 ></view>
+</view>
+<view class='detection'>
+    <view class='securityTitle'>{{securityTitle}}</view>
+    <view class='securityText'>{{securityText}}</view>
+    <image src='https://j-image.missfresh.cn/img_20180313023856777.png'></image>
+    <view class='securityTagName'>优鲜安心检测</view>
+</view>
+
+<view class='details_title'>商品详情：</view>
+<view class='details'>
+    <view class='weigth'>重量：{{weight}}</view>
+    <view class='pack'>包装：{{pack}}</view>
+    <view class='storage_time'>保质期：{{storage_time}}</view>
+    <view class='storage_method'>贮存方法：{{storage_method}}</view>
+    <image wx:for='{{instruction}}' src='{{item.image}}' wx:key='this'></image>
+</view>
+
+<view class='shopping'>
+    <view class='car' bindtap='intoMemberPage'></view>
+    <view class='shopping-car' bindtap='intoShoppingCar'>加入购物车</view>
+</view>

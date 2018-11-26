@@ -1,0 +1,26 @@
+<view class="list">
+	<scroll-view class="header">
+		<image src="/images/shop.png"></image>
+		<view class="text">您还没有添加任何商品哦~</view>
+	</scroll-view>
+	<scroll-view class="item-list">
+		<view class="title">推荐商品</view>
+		<view class="content">
+			<view class="item" wx:for="{{list}}" wx:key="this">
+				<view class="item-img">
+					<image src="https://localhost:3001/{{item.icon}}"></image>
+				</view>
+				<view class="item-title">{{item.title}}</view>
+				<view class="item-price">￥{{item.price}}</view>
+				<view class="gowucar">
+					<image  src="/images/gouwu.png" bindtap="addShopCar"></image>
+				</view>
+			</view>
+			<view class="nomore">
+				<text>没有更多了~</text>
+			</view>
+			
+		</view>
+	</scroll-view>
+</view>
+

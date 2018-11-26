@@ -1,0 +1,62 @@
+
+
+
+<!-- 搜索部分 -->
+ <view class="search" catchtap="goSearch">搜索</view>
+<!-- 顶部列表 -->
+  <view class="list">
+  <block catchtap="changeStyle" id="list">
+    <text wx:for="{{list}}" wx:key="this" data-cur="cur">{{item}}</text>
+  </block>
+
+  </view>
+  <!-- 滚动视图部分 -->
+  <scroll-view scroll-y style="height: {{height}}px;">
+    <!-- banner部分 -->
+    <swiper interval='2000' autoplay>
+      <swiper-item wx:for="{{banner}}" wx:key="this">
+         <image src="{{item.path}}"></image>
+     </swiper-item>
+    </swiper> 
+    <!-- lanternArea部分 -->
+    <view class="lanternArea">
+      <view class="item" wx:for="{{lanternArea}}" wx:key="this"> 
+        <image src="{{item.image}}"></image>
+        <view class="lanternText">{{item.name}}</view>
+      </view>
+    </view>
+    <!-- tileArea部分 -->
+    <view class="tileArea">
+      <view class="item" wx:for="{{tileArea}}" wx:key="this">
+        <image src="{{item.image}}"></image>
+        <view class="lanternText">{{item.name}}</view>
+      </view>
+    </view>
+    <!-- todayHot -->
+    <view class="todayHot">
+      <image mode="aspectFit" src="../../images/hot.png"></image>
+    </view>
+    <!-- hotList -->
+    <view class="hotList" wx:for="{{products}}" wx:key="this">
+        <view class="item" catchtap="goDetail">
+          <image src="{{item.image}}"></image>
+          <view class="content" >
+            <view class="item-name">{{item.name}}</view>
+            <view class="item-subtitle">{{item.subtitle}}</view>
+            <view class="item-product_tags-name">{{item.product_tags.name}}</view>
+            <view class="item-info">
+              <view class="item-price">
+                 <view class="item-price-up">¥{{item.non_vip_price_pro.price_up.price}}</view>
+                  <view class="item-price-down">¥{{item.non_vip_price_pro.price_down.price}}</view>
+              </view>
+              <view class="buy">
+                <text class="item-add" bindtap='addProductNum' data-type="{{index}}" data-id="{{product_index}}">+</text>
+                <text class="item-num" hidden='{{product_item.num <= 0}}'>{{product_item.num}}</text>
+                <text class="item-reduce" hidden='{{product_item.num <= 0}}' data-type="{{index}}" data-id="{{product_index}}" bindtap="reduceProductNum">-</text>
+              </view>
+            
+            </view>
+          </view>
+        </view>
+    </view>
+</scroll-view>

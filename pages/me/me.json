@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "arrdow" : "/component/arrdow/arrdow"
+    },
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "会员+",
+    "navigationBarTextStyle": "black"
+}
